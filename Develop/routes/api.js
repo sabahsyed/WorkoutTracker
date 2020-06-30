@@ -22,24 +22,27 @@ router.post("/api/workouts", ({ body }, res) => {
     });
 });
 
-router.put("/api/workouts/:id", ({ body }, res) => {
+router.put("/api/workouts/:id", ({ body ,params }, res) => {
   Workout.update(body,{
     where: {
-      id: req.body.id
+      id: params.id
     }
     }).then(function (dbWorkout) {
       res.json(dbWorkout);
+    })
+ .catch(err => {
+      res.json(err);
     });
 });
 
-
 router.get("/api/workouts/range", (req, res) => {
-  Workout.find({})
-    .then(dbWorkout => {
-      res.json(dbWorkout);
+  Workout.find({}).limit(7)
+    .then(dbWorkouts => {
+      console.log(dbWorkouts)
+      res.json(dbWorkouts);
     })
     .catch(err => {
-      res.status(400).json(err);
+      res.json(err);
     });
 });
 
