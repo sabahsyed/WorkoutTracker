@@ -2,6 +2,16 @@ const router = require("express").Router();
 
 const Workout = require("../models/workout.js");
 
+router.get("/api/workouts", (req, res) => {
+  Workout.find({})
+    .then(dbWorkout => {
+      res.json(dbWorkout);
+    })
+    .catch(err => {
+      res.status(400).json(err);
+    });
+});
+
 router.post("/api/workouts", ({ body }, res) => {
   Workout.create(body)
     .then(dbWorkout => {
@@ -13,24 +23,15 @@ router.post("/api/workouts", ({ body }, res) => {
 });
 
 router.put("/api/workouts/:id", ({ body }, res) => {
-//   Workout.(body) 
-//     .then(dbTransaction => {
-//       res.json(dbTransaction);
-//     })
-//     .catch(err => {
-//       res.status(400).json(err);
-//     });
-});
-
-router.get("/api/workouts", (req, res) => {
-  Workout.find({})
-    .then(dbWorkout => {
+  Workout.update(body,{
+    where: {
+      id: req.body.id
+    }
+    }).then(function (dbWorkout) {
       res.json(dbWorkout);
-    })
-    .catch(err => {
-      res.status(400).json(err);
     });
 });
+
 
 router.get("/api/workouts/range", (req, res) => {
   Workout.find({})
