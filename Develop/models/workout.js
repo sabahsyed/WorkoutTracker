@@ -31,11 +31,25 @@ const workoutSchema = new Schema({
         sets: {
             type: Number
         },
-        distance:{
-            type :Number
+        distance: {
+            type: Number
         }
-    }]
-});
+    }],
+},
+    {
+        toJSON: {
+            // include any virtual properties when data is requested
+            virtuals: true
+        }
+    }
+);
+//Adding  a virtual dynamic column
+ workoutSchema.virtual("totalDuration").get(function (){
+     return this.exercises.reduce((total, exercise) => { //looping through exercises
+        return total + exercise.duration; //Duration of each exercise
+      }, 0);
+ });
+
 
 const Workout = mongoose.model("Workout", workoutSchema);
 
