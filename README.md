@@ -17,3 +17,14 @@ A consumer will reach their fitness goals quicker when they track their workout 
 * mongoose 
 * morgan 
 - install using 'npm i'
+
+## Screenshots
+
+![HomePage](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.30.05%20AM.png) 
+![CardioExercise](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.30.24%20AM.png)
+![Stats](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.49.21%20AM.png)
+![WorkoutTrackerGIF](https://github.com/sabahsyed/WorkoutTracker/blob/master/workoutTrackerGIF.gif)
+
+## Questions
+If you have any questions drop by at ![SabahSyedGitHubProfile](https://github.com/sabahsyed)
+![SabahSyedLinkedInProfile](https://www.linkedin.com/in/sabah-syed-89a07344/)
