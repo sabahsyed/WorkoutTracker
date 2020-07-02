@@ -30,7 +30,7 @@ A consumer will reach their fitness goals quicker when they track their workout 
 #### Stats Page
 ![Stats](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.49.21%20AM.png)
 
-#### GIf
+#### GIF
 ![WorkoutTrackerGIF](https://github.com/sabahsyed/WorkoutTracker/blob/master/workoutTrackerGIF.gif)
 
 ## Questions
