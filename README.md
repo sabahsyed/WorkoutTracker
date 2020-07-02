@@ -20,11 +20,19 @@ A consumer will reach their fitness goals quicker when they track their workout 
 
 ## Screenshots
 
-![HomePage](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.30.05%20AM.png) 
+
+#### Homepage
+![HomePage](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.30.05%20AM.png)
+
+#### Cardio Exercise
 ![CardioExercise](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.30.24%20AM.png)
+
+#### Stats Page
 ![Stats](https://github.com/sabahsyed/WorkoutTracker/blob/master/Screen%20Shot%202020-07-02%20at%201.49.21%20AM.png)
+
+#### GIf
 ![WorkoutTrackerGIF](https://github.com/sabahsyed/WorkoutTracker/blob/master/workoutTrackerGIF.gif)
 
 ## Questions
-If you have any questions drop by at ![SabahSyedGitHubProfile](https://github.com/sabahsyed)
-![SabahSyedLinkedInProfile](https://www.linkedin.com/in/sabah-syed-89a07344/)
+If you have any questions drop by at [SabahSyedGitHubProfile](https://github.com/sabahsyed)
+[SabahSyedLinkedInProfile](https://www.linkedin.com/in/sabah-syed-89a07344/)
